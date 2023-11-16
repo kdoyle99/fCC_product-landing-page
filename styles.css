@@ -1,0 +1,98 @@
+body {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-variant: all-small-caps;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    color: #0f0f0f;
+  }
+  #header {
+    margin: 3em 0;
+    width: 100%;
+  }
+  h1, h2 {
+    text-align: center;
+    font-size: 2em;
+  }
+  .source-link {
+    text-decoration: none;
+    color: #0f0f0f;
+  }
+  .emphasis {
+    font-size: 2em;
+    position: relative;
+    top: -0.4em;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  #nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #f7f7f7;
+  }
+  li {
+    list-style: none;
+  }
+  .nav-link {
+    color: #808080;
+    text-decoration: none;
+  }
+  .nav-link:hover, .source-link:hover {
+    color: #545454;
+  }
+  #header-img {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+  }
+  main {
+    text-align: center;
+  }
+  p {
+    font-variant: normal;
+  }
+  #skin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+  }
+  #video {
+    width: 75%;
+    max-width: 750px;
+  }
+  #email {
+    width: 200px;
+    height: 2em;
+  }
+  #submit {
+    height: 2em;
+    width: 5em;
+    background-color: #0f0f0f;
+    border: none;
+    border-radius: 8%;
+    color: #f7f7f7;
+  }
+  #submit:hover {
+    background-color: #808080;
+    color: #0f0f0f;
+  }
+  footer a {
+    color: #545454;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  footer a:hover {
+    color: #808080;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
